@@ -1,0 +1,43 @@
+.form-div {
+  background-color: rgba(245, 245, 245, 0.4);
+  width: 70%;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+input[type="tel"], textarea, button{
+  width: 100%;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 16px;
+  margin: 10px 0;
+}
+
+label {
+  width: 100%;
+}
+
+.radio-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.radio-div input {
+  margin: 0 10px;
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Chrome, Safari, Opera */
+  transform: scale(1.5);
+}
+
+textarea {
+  resize: none;
+}
+
+button[type="submit"] {
+  background-color: rgb(0, 0, 0);
+  color: aliceblue;
+}
